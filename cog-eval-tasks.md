@@ -8,12 +8,12 @@
 
 ### Problem Reporting Info
 
-## App. High Level Goals
+## App. High Level Functionalities
 
-- Apt. Handling
-- Recommended Follow-up Actions
-- Medication Management
-- Health Trending Info
+1. Apt. Handling
+2. Health Trending Info
+3. Recommended Follow-up Actions
+4. Medication Management
 
 * Users are chronic illness patients who may likely have multiple providers/medications and important trends to track
 
@@ -27,9 +27,9 @@
 
 ## User Scenarios & Task Lists
 
-1. 
+1. Apt. Handling (App Functionality #1)
 - User Scenario: User would like to add an appointment to the list automatically
-- Goal: Appointment added to user profile
+- Goal: Appointment auto. added to user profile
 - Steps:
 * User enters dashboard
 * User clicks into appointments tab
@@ -37,9 +37,9 @@
 * User selects 'Add from JSON file' and selects EHR JSON file
 * Calendar populates with new appointment(s)
 
-2. 
+2. Apt. Handling (App Functionality #1)
 - User Scenario: User would like to add an appointment to the list manually
-- Goal: Appointment added to user profile
+- Goal: Appointment manually added to user profile
 - Steps:
 * User enters dashboard
 * User clicks into appointments tab
@@ -49,26 +49,37 @@
 * User types in relevant medical office systems (e.g. UIHealth, Rush, UChicago, etc.) and provider name
 * Calendar populates with new appointment(s)
 
-3. 
-- User Scenario: 
-- Goal: 
+3. Health Trending Info (App Functionality #2)
+- User Scenario: User wants to see BP trends within the last 2 months
+- Goal: Graphical view of BP trend
 - Steps:
-* 
-* 
-* 
+* User enters dashboard
+* User clicks into 'Trends' tab
+* User sees 'Visit/Lab History' with a waterfall view of past visits and labs done across different health systems
+* User selects 'BP (Blood Pressure)' under trends filter and inputs date range of past two months for trend forecast
+* User selects either tabular or graphical view, and selects graphical view 
+* User interacts with graphical view to find a specific date within the past two months
 
-4. 
-- User Scenario: 
-- Goal: 
+4. Recommender System (App Functionality #3)
+- User Scenario: User wants to read their trends following a recent check-up & blood test on 31 Oct
+- Goal: 'Recommendations & Follow-up(s)' Tab displays updated information
 - Steps:
-* 
-* 
-* 
+	1. 
+		* User enters dashboard
+		* User selects 'Update Patient' Tab
+		* User uploads their latest FHIR JSON file
+		* Dashboard displays 'EHR Data Successfully Parsed!'
+	2.
+		* User returns to dashboard and hovers over to 'Recommendations & Follow-up(s)' Tab
+		* User selects 31/10 appointment from drop down
+		* User interacts with follow-up information as needed
 
-5. 
-- User Scenario: 
-- Goal: 
+5. Medication Management (App Functionality #4)
+- User Scenario: To be able to get daily notifications for a specific medication
+- Goal: User receives notifications for their daily 500mg Tylenol
 - Steps:
-* 
-* 
-* 
+	* User enters dashboard
+	* User clicks into 'Medications' tab
+	* User interacts with page to select 'Tylenol' from medication list
+	* User selects 'Notifications' under the Tylenol page
+	* User selects frequency to be set as daily, and opts in for emails
