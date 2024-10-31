@@ -27,18 +27,48 @@
 
 ## User Scenarios & Task Lists
 
-1. X
+1. 
+- User Scenario: User would like to add an appointment to the list automatically
+- Goal: Appointment added to user profile
+- Steps:
+* User enters dashboard
+* User clicks into appointments tab
+* User hovers over calendar view to select 'Add Appointment(s)'
+* User selects 'Add from JSON file' and selects EHR JSON file
+* Calendar populates with new appointment(s)
+
+2. 
+- User Scenario: User would like to add an appointment to the list manually
+- Goal: Appointment added to user profile
+- Steps:
+* User enters dashboard
+* User clicks into appointments tab
+* User hovers over calendar view to select 'Add Appointment(s)'
+* User selects 'Manual Add'
+* User selects Date/Time of apt.
+* User types in relevant medical office systems (e.g. UIHealth, Rush, UChicago, etc.) and provider name
+* Calendar populates with new appointment(s)
+
+3. 
 - User Scenario: 
 - Goal: 
-2. X
+- Steps:
+* 
+* 
+* 
+
+4. 
 - User Scenario: 
 - Goal: 
-3. X
+- Steps:
+* 
+* 
+* 
+
+5. 
 - User Scenario: 
 - Goal: 
-4. X
-- User Scenario: 
-- Goal: 
-5. X
-- User Scenario: 
-- Goal: 
+- Steps:
+* 
+* 
+* 
