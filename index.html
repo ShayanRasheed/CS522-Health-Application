@@ -1,9 +1,33 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>CS 522 Health Application</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Connect Food</title>
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <p>We're gonna add stuff here.</p>
+    <main>
+      <div id = "head">
+        <h1>Health Chart</h1>
+      </div>
+      <div id="Options">
+        <button  onclick="window.location.href = 'appointments.html';">
+          <img src="Images/calendar.webp" width="100%" height="60%"/>
+          Appointments
+        </button>
+        <button onclick="window.location.href = 'medications.html';">
+          <img src="Images/medication.png" width="100%" height="60%"/>
+          Medications
+        </button>
+        <button onclick="window.location.href = 'checkupHistory.html';">
+          <img src="Images/doctor.png" width="100%" height="60%"/>
+          Checkup History
+        </button>
+      </div>
+    </main>
+	<script type="module" src="JS/index.js"></script>
   </body>
 </html>
