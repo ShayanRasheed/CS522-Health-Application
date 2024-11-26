@@ -1,6 +1,6 @@
 # Tasks Needed within Health Application:
 
-### UI Prototype (assume)
+### UI Prototype
 
 ### User Scenario
 
@@ -83,3 +83,9 @@
 	* User interacts with page to select 'Tylenol' from medication list
 	* User selects 'Notifications' under the Tylenol page
 	* User selects frequency to be set as daily, and opts in for emails
+
+
+Notable Feedback:
+- Interaction options should be easy to find and not buried under menus
+- Setup for checkup analysis could potentially be confusing in terms of layout, make sure that options are easy to find and timeframe is clearly visible to user
+- Notifications are the most useful feature and should be front and center in the application
