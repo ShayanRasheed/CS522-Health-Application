@@ -5,12 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Medications</title>
-    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+    <link rel="stylesheet" href="./styles/medicationStyle.css" type="text/css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
     <main>
-      <div id = "head">
+      <div id="nav">
+        <button onclick="window.location.href = 'index.html';">
+            <img src="Images/home.png" width="20px" height="20px"/>
+        </button>
+        <button id="disabledButton">
+            <img src="Images/medication.png" width="20px" height="20px"/>
+        </button>
+        <button onclick="window.location.href = 'checkupHistory.html';">
+            <img src="Images/doctor.png" width="20px" height="20px"/>
+        </button>
+        <button onclick="window.location.href = 'appointments.html';">
+            <img src="Images/calendar.webp" width="20px" height="20px"/>
+        </button>
+      </div>  
+      <div>
         <h1>Medications</h1>
       </div>
       <section>
