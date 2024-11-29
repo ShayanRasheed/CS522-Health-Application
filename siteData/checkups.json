@@ -1,0 +1,50 @@
+[
+    {
+      "checkupDate": "2024-01-15",
+      "height_cm": 170,
+      "weight_kg": 70,
+      "BMI": 24.2,
+      "bloodPressure": {
+        "systolic": 120,
+        "diastolic": 80
+      },
+      "heartRate_bpm": 72,
+      "temperature_celsius": 36.7,
+      "cholesterol_mg/dL": 180,
+      "bloodSugar_mg/dL": 90,
+      "notes": "Routine checkup. Patient in good health.",
+      "doctor": "Dr. Smith"
+    },
+    {
+      "checkupDate": "2024-06-20",
+      "height_cm": 170,
+      "weight_kg": 72,
+      "BMI": 24.9,
+      "bloodPressure": {
+        "systolic": 130,
+        "diastolic": 85
+      },
+      "heartRate_bpm": 75,
+      "temperature_celsius": 37.1,
+      "cholesterol_mg/dL": 195,
+      "bloodSugar_mg/dL": 95,
+      "notes": "Patient reports occasional headaches. Blood pressure elevated.",
+      "doctor": "Dr. Brown"
+    },
+    {
+      "checkupDate": "2024-11-01",
+      "height_cm": 160,
+      "weight_kg": 65,
+      "BMI": 25.4,
+      "bloodPressure": {
+        "systolic": 125,
+        "diastolic": 78
+      },
+      "heartRate_bpm": 70,
+      "temperature_celsius": 36.8,
+      "cholesterol_mg/dL": 170,
+      "bloodSugar_mg/dL": 88,
+      "notes": "Routine checkup. Discussed smoking cessation options.",
+      "doctor": "Dr. Lee"
+    }
+  ]
