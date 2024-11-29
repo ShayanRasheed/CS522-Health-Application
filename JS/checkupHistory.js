@@ -3,14 +3,14 @@ const displayDiv = document.getElementById('second');
 
 var divList = [];
 
-const checkupText = document.createElement('p');
-displayDiv.append(checkupText);
-
 function displayDetails(checkup) {
+    displayDiv.replaceChildren();
     let result = "";
 
     for(const prop in checkup) {
-        result += prop + `: ${checkup[prop]}`;
+        const checkupText = document.createElement('p');
+        checkupText.textContent = prop + `: ${checkup[prop]}`;
+        displayDiv.append(checkupText);
     }
 
     checkupText.textContent = result;
@@ -28,7 +28,7 @@ fetch('../siteData/checkups.json')
 
         for (const prop in value) {
             if (value.hasOwnProperty(prop)) {
-                if(prop == "checkupDate") {
+                if(prop == "Checkup Date") {
                     const checkupButton = document.createElement('button');
                     checkupButton.textContent = `Checkup on ${value[prop]}`;
                     checkupButton.id = "checkupButton";

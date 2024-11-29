@@ -1,13 +1,11 @@
 [
     {
-      "checkupDate": "2024-01-15",
+      "Checkup Date": "2024-01-15",
       "height_cm": 170,
       "weight_kg": 70,
       "BMI": 24.2,
-      "bloodPressure": {
-        "systolic": 120,
-        "diastolic": 80
-      },
+      "systolic blood pressure": 120,
+      "diastolic blood pressure": 80,
       "heartRate_bpm": 72,
       "temperature_celsius": 36.7,
       "cholesterol_mg/dL": 180,
@@ -16,35 +14,87 @@
       "doctor": "Dr. Smith"
     },
     {
-      "checkupDate": "2024-06-20",
-      "height_cm": 170,
-      "weight_kg": 72,
-      "BMI": 24.9,
-      "bloodPressure": {
-        "systolic": 130,
-        "diastolic": 85
+        "Checkup Date": "2024-04-10",
+        "height_cm": 170,
+        "weight_kg": 72,
+        "BMI": 24.9,
+        "systolic blood pressure": 128,
+        "diastolic blood pressure": 84,
+        "heartRate_bpm": 75,
+        "temperature_celsius": 37.0,
+        "cholesterol_mg/dL": 190,
+        "bloodSugar_mg/dL": 95,
+        "notes": "Patient reports fatigue. Advised lifestyle changes.",
+        "doctor": "Dr. Brown"
       },
-      "heartRate_bpm": 75,
-      "temperature_celsius": 37.1,
-      "cholesterol_mg/dL": 195,
-      "bloodSugar_mg/dL": 95,
-      "notes": "Patient reports occasional headaches. Blood pressure elevated.",
-      "doctor": "Dr. Brown"
-    },
-    {
-      "checkupDate": "2024-11-01",
-      "height_cm": 160,
-      "weight_kg": 65,
-      "BMI": 25.4,
-      "bloodPressure": {
-        "systolic": 125,
-        "diastolic": 78
+      {
+        "Checkup Date": "2024-06-20",
+        "height_cm": 170,
+        "weight_kg": 72,
+        "BMI": 24.9,
+        "systolic blood pressure": 130,
+        "diastolic blood pressure": 85,
+        "heartRate_bpm": 75,
+        "temperature_celsius": 37.1,
+        "cholesterol_mg/dL": 195,
+        "bloodSugar_mg/dL": 95,
+        "notes": "Patient reports occasional headaches. Blood pressure elevated.",
+        "doctor": "Dr. Brown"
       },
-      "heartRate_bpm": 70,
-      "temperature_celsius": 36.8,
-      "cholesterol_mg/dL": 170,
-      "bloodSugar_mg/dL": 88,
-      "notes": "Routine checkup. Discussed smoking cessation options.",
-      "doctor": "Dr. Lee"
-    }
+      {
+        "Checkup Date": "2024-07-25",
+        "height_cm": 170,
+        "weight_kg": 74,
+        "BMI": 25.6,
+        "systolic blood pressure": 135,
+        "diastolic blood pressure": 88,
+        "heartRate_bpm": 78,
+        "temperature_celsius": 36.9,
+        "cholesterol_mg/dL": 200,
+        "bloodSugar_mg/dL": 100,
+        "notes": "Mildly elevated blood pressure and cholesterol. Prescribed statin.",
+        "doctor": "Dr. Brown"
+      },
+      {
+        "Checkup Date": "2024-10-05",
+        "height_cm": 170,
+        "weight_kg": 73,
+        "BMI": 25.3,
+        "systolic blood pressure": 125,
+        "diastolic blood pressure": 82,
+        "heartRate_bpm": 74,
+        "temperature_celsius": 36.8,
+        "cholesterol_mg/dL": 185,
+        "bloodSugar_mg/dL": 92,
+        "notes": "Patient improving. Blood pressure under control.",
+        "doctor": "Dr. Smith"
+      },
+      {
+        "Checkup Date": "2024-11-01",
+        "height_cm": 160,
+        "weight_kg": 65,
+        "BMI": 25.4,
+        "systolic blood pressure": 125,
+        "diastolic blood pressure": 78,
+        "heartRate_bpm": 70,
+        "temperature_celsius": 36.8,
+        "cholesterol_mg/dL": 170,
+        "bloodSugar_mg/dL": 88,
+        "notes": "Routine checkup. Discussed smoking cessation options.",
+        "doctor": "Dr. Lee"
+      },
+      {
+        "Checkup Date": "2025-01-10",
+        "height_cm": 170,
+        "weight_kg": 72,
+        "BMI": 24.9,
+        "systolic blood pressure": 120,
+        "diastolic blood pressure": 78,
+        "heartRate_bpm": 70,
+        "temperature_celsius": 36.7,
+        "cholesterol_mg/dL": 175,
+        "bloodSugar_mg/dL": 89,
+        "notes": "Routine checkup. Patient in good health.",
+        "doctor": "Dr. Lee"
+      }
   ]

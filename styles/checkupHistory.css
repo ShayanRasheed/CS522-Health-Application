@@ -12,6 +12,13 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
 #checkupButton {
     padding-left: 75px;
     padding-right: 75px;
