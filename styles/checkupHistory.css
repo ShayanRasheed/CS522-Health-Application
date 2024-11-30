@@ -19,7 +19,76 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
-#checkupButton {
+canvas {
+    background-color: white;
+}
+
+input {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    margin: 20px;
+}
+
+select {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    margin: 20px; 
+}
+
+#graphInput {
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+#submitBtn {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.checkupButton {
     padding-left: 75px;
     padding-right: 75px;
     padding-top: 20px;
@@ -54,17 +123,17 @@ p {
     margin: 20px;
 }
 
-#checkupButton:hover,
-#checkupButton:focus {
+.checkupButton:hover,
+.checkupButton:focus {
   background-color: #b3d3ea;
   color: #2c5777;
 }
 
-#checkupButton:focus {
+.checkupButton:focus {
   box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
 }
 
-#checkupButton:active {
+.checkupButton:active {
   background-color: #a0c7e4;
   box-shadow: none;
   color: #2c5777;

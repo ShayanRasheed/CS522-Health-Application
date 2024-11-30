@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/checkupHistory.css" type="text/css">
     <link rel="stylesheet" href="./styles/navBar.css" type="text/css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
     <main>
@@ -33,7 +34,26 @@
           <div id="second"></div>
           <div id="clear"></div>
       </div>
+      <div id="graphInput">
+        <h1>View Health Trends</h1>
+        <input type="date" id="start-date" name="Start Date">
+        <input type="date" id="end-date" name="End Date">
+        <select name="Metric" id="metric">
+          <option value="" selected disabled hidden>Select...</option>
+          <option value="height_cm">Height</option>
+          <option value="weight_kg">Weight</option>
+          <option value="BMI">BMI</option>
+          <option value="systolic blood pressure">systolic blood pressure</option>
+          <option value="diastolic blood pressure">diastolic blood pressure</option>
+          <option value="heartRate_bpm">Heart Rate</option>
+          <option value="temperature_celsius">Temperature</option>
+          <option value="cholesterol_mg/dL">Cholesterol</option>
+          <option value="bloodSugar_mg/dL">Blood Sugar</option>
+        </select>
+        <button id="submitBtn" class="checkupButton">Submit</button>
+        <canvas id="healthChart" width="800" height="400"></canvas>
+      </div>
     </main>
-	<script type="module" src="JS/checkupHistory.js"></script>
+    <script type="module" src="JS/checkupHistory.js"></script>
   </body>
 </html>
