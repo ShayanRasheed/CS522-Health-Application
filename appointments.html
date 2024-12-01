@@ -41,7 +41,36 @@
             <option value="Nutrition">Nutrition</option>
           </select>
         </div>
-        <div id="second"></div>
+        <div id="second">
+          <h1>Add Appointment</h1>
+          <h2>Appointment Name:</h2>
+          <input id="apptName" name="Appt Name"/>
+          <br/>
+          <h2>Location:</h2>
+          <input id="location" name="Appt Location"/>
+          <br/>
+          <h2>Date:</h2>
+          <input type="date" id="apptDate" name="Appt Date"/>
+          <br/>
+          <h2>Time:</h2>
+          <input type="time" id="apptTime" name="Appt Time"/>
+          <br/>
+          <h2>Details:</h2>
+          <input id="apptDetails" name="Appt Details"/>
+          <br/>
+          <h2>Appointment Type:</h2>
+          <select id="type">
+            <option value="" selected disabled hidden>Type...</option>
+            <option value="General Checkup">General Checkup</option>
+            <option value="Dental">Dental</option>
+            <option value="Vision">Vision</option>
+            <option value="Specialist">Specialist</option>
+            <option value="Therapy">Therapy</option>
+            <option value="Nutrition">Nutrition</option>
+          </select>
+          <br/>
+          <button id="submitBtn">Submit</button>
+        </div>
         <div id="clear"></div>
       </div>
     </main>

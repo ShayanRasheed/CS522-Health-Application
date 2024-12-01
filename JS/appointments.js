@@ -51,7 +51,7 @@ fetch('../siteData/appointments.json')
         if (appointments.hasOwnProperty(key)) {
             const value = appointments[key];
 
-            if(type == "None" || type == value["appointmentType"]) {
+            if(type == "None" || type == "" || type == value["appointmentType"]) {
                 const apptDiv = document.createElement('div');
                 apptDiv.id = "appointment";
         
@@ -77,4 +77,48 @@ fetch('../siteData/appointments.json')
             }
         }
     }
-  }
+}
+
+document.getElementById("submitBtn").addEventListener("click", addNewAppt);
+
+function addNewAppt() {
+
+    const newApptName = document.getElementById("apptName").value;
+    const newApptType = document.getElementById("type").value;
+    const newDate = document.getElementById("apptDate").value;
+    const newTime = document.getElementById("apptTime").value;
+    const newPurpose = document.getElementById("apptDetails").value;
+    const newLoc = document.getElementById("location").value;
+
+    if(newApptName == "" || newApptType == "" || newDate == "" || newTime == "" || newPurpose == "" || newLoc == "") {
+        return;
+    }
+
+    let newAppointment = {
+        appointmentName: newApptName,
+        appointmentType: newApptType,
+        date: newDate,
+        time: newTime,
+        purpose: newPurpose,
+        location: newLoc
+    };
+
+    let dateAdded = false;
+    for(let i = 0; i < appointments.length; i++) {
+        const curDate = new Date(appointments[i]["date"]);
+        const addingDate = new Date(newDate);
+
+        if(addingDate < curDate) {
+            appointments.splice(i, 0, newAppointment);
+            dateAdded = true;
+            break;
+        }
+    }
+    if(!dateAdded) {
+        appointments.push(newAppointment);
+    }
+
+    console.log(appointments);
+
+    filterList();
+}
