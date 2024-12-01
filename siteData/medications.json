@@ -1,0 +1,39 @@
+[
+    {
+      "medicationName": "Atorvastatin",
+      "prescriptionSource": "Dr. Smith, General Practitioner",
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "timeOfDay": ["8:00 AM"],
+      "dosesLeft": 25,
+      "description": "Used to lower cholesterol and reduce the risk of heart disease.",
+      "notes": "Take with or without food. Avoid drinking large amounts of grapefruit juice while taking this medication."
+    },
+    {
+      "medicationName": "Metformin",
+      "prescriptionSource": "Dr. Lee, Endocrinologist",
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "timeOfDay": ["8:00 AM", "8:00 PM"],
+      "dosesLeft": 40,
+      "description": "Used to manage blood sugar levels in patients with type 2 diabetes.",
+      "notes": "Take with meals to avoid stomach upset. Monitor blood sugar regularly."
+    },
+    {
+      "medicationName": "Lisinopril",
+      "prescriptionSource": "Dr. Gomez, Cardiologist",
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "timeOfDay": ["7:00 AM"],
+      "dosesLeft": 30,
+      "description": "Treats high blood pressure and heart failure.",
+      "notes": "May cause dizziness. Drink plenty of water, and avoid potassium supplements unless directed."
+    },
+    {
+      "medicationName": "Omeprazole",
+      "prescriptionSource": "Dr. Khan, Gastroenterologist",
+      "days": ["Monday", "Wednesday", "Friday"],
+      "timeOfDay": ["7:30 AM"],
+      "dosesLeft": 5,
+      "description": "Reduces stomach acid and treats conditions like GERD and ulcers.",
+      "notes": "Take 30 minutes before a meal. Do not crush or chew the capsule."
+    }
+  ]
+  

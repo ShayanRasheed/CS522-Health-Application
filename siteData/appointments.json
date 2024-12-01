@@ -1,0 +1,51 @@
+[
+    {
+      "appointmentName": "Annual Physical",
+      "date": "2024-12-01",
+      "time": "09:00 AM",
+      "purpose": "General health check-up",
+      "location": "Green Valley Clinic, 123 Main St, Springfield",
+      "appointmentType": "General Checkup"
+    },
+    {
+      "appointmentName": "Dental Cleaning",
+      "date": "2024-12-15",
+      "time": "11:00 AM",
+      "purpose": "Routine teeth cleaning and examination",
+      "location": "Springfield Dental Center, 456 Elm St, Springfield",
+      "appointmentType": "Dental"
+    },
+    {
+      "appointmentName": "Eye Exam",
+      "date": "2025-01-05",
+      "time": "02:00 PM",
+      "purpose": "Update prescription for eyeglasses and check eye health",
+      "location": "Vision Care Center, 789 Oak St, Springfield",
+      "appointmentType": "Vision"
+    },
+    {
+      "appointmentName": "Cardiologist Consultation",
+      "date": "2025-02-10",
+      "time": "10:30 AM",
+      "purpose": "Follow-up on heart condition and medication adjustment",
+      "location": "Heart Health Specialists, 321 Maple Ave, Springfield",
+      "appointmentType": "Specialist"
+    },
+    {
+      "appointmentName": "Physical Therapy Session",
+      "date": "2025-02-20",
+      "time": "01:00 PM",
+      "purpose": "Rehabilitation exercises for knee injury",
+      "location": "Springfield Rehabilitation Center, 654 Cedar Ln, Springfield",
+      "appointmentType": "Therapy"
+    },
+    {
+      "appointmentName": "Nutritionist Meeting",
+      "date": "2025-03-01",
+      "time": "03:00 PM",
+      "purpose": "Discuss diet plan for weight management",
+      "location": "Wellness and Nutrition Center, 987 Pine St, Springfield",
+      "appointmentType": "Nutrition"
+    }
+  ]
+  
